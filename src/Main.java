@@ -1,8 +1,6 @@
 public class Main {
-    public static void main(String[] args) {
-     MinhaJanela janela = new MinhaJanela();
-     janela.InterfaceCronograma();
+    public static void main(String[] args) throws Exception {
+        new Cronometro();
 
     }
-    
-}
+} 
